@@ -1,0 +1,31 @@
+.container-num{
+    margin-top: 3em;
+    font-weight: bold;
+    font-size: larger;
+    font-family: monospace;
+    text-align: center;
+}
+
+.btn-main{
+    font-weight: bold;
+    margin-top: 2em;
+    text-align: center;
+    .btn{
+        font-size: large;
+        padding: 1.5em;
+        font-weight: bold;
+        font-family: monospace;
+        cursor: pointer;
+    }
+}
+
+.summary{
+    text-align: center;
+    margin-top: 2em;
+    .result{
+        font-family: monospace;
+        text-align: center;
+        font-weight:bold ;
+        font-size: larger;
+    }
+}
