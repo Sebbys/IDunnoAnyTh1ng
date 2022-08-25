@@ -24,4 +24,3 @@ function mult(){
     cout.textContent = "Sum : " + res
     console.log(res);
 }
-
