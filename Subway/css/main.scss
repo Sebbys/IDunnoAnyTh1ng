@@ -1,0 +1,41 @@
+.bg{
+text-align: center;
+background-image: url('../ray_p.png');
+margin: 0;
+border-radius: 5px;
+    h1{
+        text-align: center;
+        padding-left: 3rem;
+        font-weight: bold;
+    }
+    h2{
+        text-align: center;
+        font-weight: bolder;
+    }
+    .btn-1{
+        background-color: rgb(59, 228, 124);
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .btn-2{
+        background-color: rgb(218, 65, 65);
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .btn-3{
+        background-color: rgb(243, 84, 203);
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
+
+.option-menu{
+    text-align: center;
+    .btn-4{
+        align-content: center;
+        margin-top: .5em;
+        margin-right: .5em;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
