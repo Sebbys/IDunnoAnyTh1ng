@@ -1,0 +1,47 @@
+.container {
+    width: 375px;
+    height: 525px;
+    margin: auto;
+    background-color: rgb(91, 156, 255);
+    padding-left: 30px;
+    border-radius: 5px;
+    .title{
+        padding-top: 1em;
+        font-family: monospace;
+    }
+    .inp{
+        font-family: monospace;
+        font-size: 1.5em;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .inp-2{
+        font-family: monospace;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .btn{
+        font-family: monospace;
+        font-size: 1.5em;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .guideList{
+        font-family: monospace;
+        font-style: italic;
+        font-size: 1em;
+        padding-left: 5em;
+    }
+    .result{
+        font-family: monospace;
+        padding-top: .5em;
+        font-weight: bold;
+        padding-left: 7.5em;
+    }
+}
+
+
+
+
+
