@@ -1,0 +1,42 @@
+.container {
+  width: 375px;
+  height: 525px;
+  margin: auto;
+  background-color: rgb(91, 156, 255);
+  padding-left: 30px;
+  border-radius: 5px;
+}
+.container .title {
+  padding-top: 1em;
+  font-family: monospace;
+}
+.container .inp {
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.container .inp-2 {
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.container .btn {
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .guideList {
+  font-family: monospace;
+  font-style: italic;
+  font-size: 1em;
+  padding-left: 5em;
+}
+.container .result {
+  font-family: monospace;
+  padding-top: 0.5em;
+  font-weight: bold;
+  padding-left: 7.5em;
+}/*# sourceMappingURL=main.css.map */
