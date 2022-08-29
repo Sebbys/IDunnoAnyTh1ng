@@ -34,11 +34,17 @@ console.log(guess);
 })
 
 
-
 function gameOver(){
-    document.getElementById('.btn').disable = true;    
-}
+    document.getElementById('btn').disabled = true; //Finally Working :D
+    document.getElementById('guess').disabled = true; //Finally Working :D
+    //Still Figuring out how to make a new button appear :'
+    newBtn = document.createElement('btn');
+    newBtn.textContent = 'Reset Game';
+    const par = document.getElementById('body')
+    const child = document.getElementById('loHi')
+    child.appendChild(newBtn)
 
+}
 
 
 
