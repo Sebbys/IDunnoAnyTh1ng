@@ -1,11 +1,8 @@
 let count = 0;
 let rng = Math.floor(Math.random()*100);
-let btn = document.getElementById('btn');
+const btn = document.querySelector('.btn');
 const txt = document.getElementById('output');
 let loHi = document.getElementById('loHi');
-
-const res = document.getElementById('res');
-const endGame = document.querySelector('guess');
 
 btn.addEventListener('click',function(){
 let guess = parseInt(document.getElementById('guess').value)
@@ -36,12 +33,18 @@ console.log(count);
 console.log(guess);
 })
 
-function gameOver(){
-    endGame.disable = true;
-    btn.style.color = 'red'
-    count = 0
-}
 
+function gameOver(){
+    document.getElementById('btn').disabled = true; //Finally Working :D
+    document.getElementById('guess').disabled = true; //Finally Working :D
+    //Still Figuring out how to make a new button appear :'
+    newBtn = document.createElement('btn');
+    newBtn.textContent = 'Reset Game';
+    const par = document.getElementById('body')
+    const child = document.getElementById('loHi')
+    child.appendChild(newBtn)
+
+}
 
 
 
