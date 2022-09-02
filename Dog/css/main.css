@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(46, 46, 46);
+    font-family: monospace;
+}
+
+.result{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 3.5em;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    padding-bottom: 3em;
+    margin: auto;
+    line-height: 300px;
+    width: 500px;
+    border-radius: 5px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#getCat{
+    padding-top: .5em;
+    margin-top: 1em;
+    padding: 1.2em 1.2em 1.2em 1.2em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.placeHolder{
+    width: 500px;
+    line-height: 300px;
+    border: .2em;
+    margin: auto;
+}
+
+.box {
+    color: rgb(255, 255, 255);
+    padding-bottom: 3em;
+    margin: auto;
+    line-height: 300px;
+    width: 500px;
+    border-radius: 5px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
